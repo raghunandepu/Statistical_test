@@ -35,23 +35,22 @@ Standard Deviation SD: 4.8
 
 ## 4. Provide one or two visualizations that show the distribution of the sample data. Write one or two sentences noting what you observe about the plot or plots.
 
+![alt text](https://github.com/raghunandepu/UD_MLFND_P2/blob/master/Completion-plot.PNG)
 
-Congruent word condition appear to be consistently completed faster than incongruent  word condition
+**Observation:** Congruent word condition appear to be consistently completed faster than incongruent  word condition
 
 
 ## 5.What is your confidence level and your critical statistic value? Do you reject the null hypothesis or fail to reject it? Come to a conclusion in terms of the experiment task. Did the results match up with your expectations?
 
+```
 α = .01 
-
 df = 23 
-
 tcrit = -2.50 
-
 t = -8.02 
-
 p-value = < .0001 
+```
 
-At the 99% confidence level (α = .01) and 23 degrees of freedom, the critical statistic value for a one-tailed test in the negative direction is -2.5. The calculated t-statistic for the difference in colour recognition time means of the congruent and incongruent word data is -8.02. Since the t-statistic is in the critical region, the null hypothesis is rejected. With the data presented, it is very unlikely that the 7.96 second difference in mean time for colour recognition for the congruent data vs. the incongruent data is obtained if the two means are actually the same (or if μC > μI). By conventional criteria, this difference is considered to be extremely statistically significant. 
+At the 99% confidence level (α = .01) and 23 degrees of freedom, the critical statistic value for a one-tailed test in the negative direction is -2.5. The calculated t-statistic for the difference in colour recognition time means of the congruent and incongruent word data is -8.02. Since the t-statistic is in the critical region, the ***null hypothesis is rejected***. With the data presented, it is very unlikely that the 7.96 second difference in mean time for colour recognition for the congruent data vs. the incongruent data is obtained if the two means are actually the same (or if μC > μI). By conventional criteria, this difference is considered to be extremely statistically significant. 
 There is sufficient evidence at the α = .01 level of significance to support the claim that it takes less time to recognize the colour of words with the congruent condition compared to words with the incongruent condition. The result confirms my expectations.
 
 ## 6. What do you think is responsible for the effects observed? Can you think of an alternative or similar task that would result in a similar effect? Some research about the problem will be helpful for thinking about these two questions!
