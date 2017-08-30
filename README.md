@@ -5,7 +5,7 @@ Test a Perceptual Phenomenon
 ## Background information
 In a Stroop task, participants are presented with a list of words, with each word displayed in a color of ink. The participant’s task is to say out loud the color of the ink in which the word is printed. The task has two conditions: a congruent words condition, and an incongruent words condition. In the congruent words condition, the words being displayed are color words whose names match the colors in which they are printed: for example RED, BLUE. In the incongruent words condition, the words displayed are color words whose names do not match the colors in which they are printed: for example PURPLE, ORANGE. In each case, we measure the time it takes to name the ink colors in equally-sized lists. Each participant will go through and record a time from each condition.
 
-**Dataset: <a href="https://github.com/raghunandepu/UD_MLFND_P2/blob/master/stroopdata.csv">View CSV</a>
+**Dataset:** <a href="https://github.com/raghunandepu/UD_MLFND_P2/blob/master/stroopdata.csv">View CSV</a>
 
 ## Questions for investigation
 
@@ -19,9 +19,9 @@ Independent variable: Word Condition (congruent/incongruent)
 ## 2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.
 
 #### Hypothesis test
-Null Hypthesis Ho: Time to name colours is the same for congruent and incongruent tasks
+Null Hypthesis **Ho**: Time to name colours is the same for congruent and incongruent tasks
 
-Alternative Hypothesis Ha: Time to name colours is not the same for congruent and incongruent tasks
+Alternative Hypothesis **Ha**: Time to name colours is not the same for congruent and incongruent tasks
 
 The Dependent Samples t-Test is the appropriate statistical test as the same subjects are assigned two different conditions. The different conditions are dependent because, in theory, by doing the first test you have some practice doing it and you might have an unfair advantage due to this learning effect in doing the similar type of test second. In addition, we don't have any population parameters provided (so a z-test would not be appropriate here).
 
