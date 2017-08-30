@@ -56,4 +56,4 @@ There is sufficient evidence at the α = .01 level of significance to support th
 ## 6. What do you think is responsible for the effects observed? Can you think of an alternative or similar task that would result in a similar effect? Some research about the problem will be helpful for thinking about these two questions!
 
 The brain has an image association between the shape of the word and the colour. When there is a mismatch, additional time is necessary for the prefrontal cortex to process the information and decide on its meaning.
-A similar effect would likely be observed if the participants were shown words of the correct colour but the wrong text. My hunch, however, is that the difference would be less pronounced as I’d expect the visual colour representation to be more ingrained in the brain that word shape associations.
+A similar effect would likely be observed if the participants were shown words of the correct colour but the wrong text.  However, the difference would be less pronounced as I’d expect the visual colour representation to be more ingrained in the brain that word shape associations.
