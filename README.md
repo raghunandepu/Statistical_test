@@ -23,7 +23,7 @@ Null Hypthesis **Ho**: Time to name colours is the same for congruent and incong
 
 Alternative Hypothesis **Ha**: Time to name colours is not the same for congruent and incongruent tasks
 
-The Dependent Samples t-Test is the appropriate statistical test as the same subjects are assigned two different conditions. The different conditions are dependent because, in theory, by doing the first test you have some practice doing it and you might have an unfair advantage due to this learning effect in doing the similar type of test second. In addition, we don't have any population parameters provided (so a z-test would not be appropriate here).
+The Dependent Samples t-Test is the appropriate statistical test as the same subjects are assigned two different conditions. The different conditions are dependent because by doing the first test you have some practice doing it and you might have an unfair advantage due to this learning effect in doing the similar type of test second. In addition, we don't have any population parameters provided (so a z-test would not be appropriate here).
 
 ## 3. Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability.
 #### Congruent
@@ -47,7 +47,7 @@ Standard Deviation SD: 4.8
 df = 23 
 tcrit = -2.50 
 t = -8.02 
-p-value = < .0001 
+P-value = < .0001 
 ```
 
 At the 99% confidence level (α = .01) and 23 degrees of freedom, the critical statistic value for a one-tailed test in the negative direction is -2.5. The calculated t-statistic for the difference in colour recognition time means of the congruent and incongruent word data is -8.02. Since the t-statistic is in the critical region, the ***null hypothesis is rejected***. With the data presented, it is very unlikely that the 7.96 second difference in mean time for colour recognition for the congruent data vs. the incongruent data is obtained if the two means are actually the same (or if μC > μI). By conventional criteria, this difference is considered to be extremely statistically significant. 
