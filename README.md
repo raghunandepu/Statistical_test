@@ -19,9 +19,12 @@ Independent variable: Word Condition (congruent/incongruent)
 ## 2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.
 
 #### Hypothesis test
-Null Hypthesis **Ho**: Time to name colours is the same for congruent and incongruent tasks
-
-Alternative Hypothesis **Ha**: Time to name colours is not the same for congruent and incongruent tasks
+The null hypothesis should be that the mean time for colour recognition for congruent words is equal to or greater than the mean time for incongruent words, therefore implying a one-tailed test. The alternative hypothesis should be that the congruent words mean is less than the incongruent words mean. 
+```
+H0: μC ≥ μI 
+HA: μC < μI 
+```
+where μ is a population mean, the subscript "C" represents the congruent words condition, and the subscript "I" represents the incongruent words condition. 
 
 The Dependent Samples t-Test is the appropriate statistical test as the same subjects are assigned two different conditions. The different conditions are dependent because by doing the first test you have some practice doing it and you might have an unfair advantage due to this learning effect in doing the similar type of test second. In addition, we don't have any population parameters provided (so a z-test would not be appropriate here).
 
