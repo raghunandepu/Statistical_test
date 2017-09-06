@@ -1,5 +1,5 @@
-# UD_MLFND_P2
-Test a Perceptual Phenomenon
+# Statistical_test 
+This repository tests for a perceptual phenomenon called the stroop effect.
 
 # Project 2: Test a Perceptual Phenomenon 
 ## Background information
